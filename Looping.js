@@ -107,7 +107,7 @@
 
            let n  = 153;
 
-  let d;
+  let d5;
 
   let org = n
   let sum = 0
@@ -147,7 +147,40 @@
     
       console.log(d)
 
+      
+      // REVERSE OF NUMBERS
 
+      // reverse of numbers
+
+ let num16 = 546498
+
+ let d2;
+
+ let rev = 0
+
+ let org3 = num16
+
+ while (num16 != 0) 
+ {
+
+     d2= num16 % 10;
+
+     rev = rev * 10 + d2
+
+     num16  = num16 / 10
+
+     num16 = parseInt(num16)
+
+ }
+
+ if(org3 == rev){
+ }
+
+ console.log(rev)
+
+
+
+  
 
 
 
@@ -236,7 +269,17 @@
             
         }
         console.log(sum1)
+
+        // method 2:
+        // for(num = 153 ; num !=0 ; num = parseInt(num))
+        //{
+        //     d = num % 10
+        //     sum = sum + (d * d * d)
+        //     num = num / 10 
+        // }
         
+        console.log(sum)
+
         if(org1 == sum1)
         {
             console.log(sum1 + " is an armstrong number")
@@ -246,3 +289,23 @@
             console.log(sum1 + " is not an armstrong number")
         }
             
+
+
+        //reverse of a number 
+
+        // let num =123
+        // let d
+        // rev=0
+        // org=num
+
+        // while(num!=0)
+        // {
+        //     d=num%10
+        //     rev=rev*10+d
+        //     num=num/10
+        //     num=parseInt(num)
+        // }
+        // if(org==rev)
+        // {
+
+        

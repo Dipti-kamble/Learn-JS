@@ -123,3 +123,18 @@
        console.log(fun2())
 
 
+       // NESTED FUNCTION 
+//  Function chya aat madhe ajun ek function
+
+// SYNTAX :
+    let func =()=>
+    {
+        let fun2 =()=>
+        {
+            console.log("this is a nested function")
+        }
+        fun2()   //function calling
+    }
+     func()
+
+
