@@ -146,56 +146,60 @@ console.log(stat)
    // Same Example using if/else 
 
 
-//    let full_name =prompt("Enter your full name !")
+   let full_name =prompt("Enter your full name !")
 
-//    let name_divider = (str) =>
+   let name_divider = (str) =>
    
-//    { if(str)
+   { if(str)
 
-//     {
-//         let first_name = str.slice(0,str.indexOf("  "))
-
-//     let middle_name =str.slice(str.indexOf("  ") +1 ,str.lastIndexOf("  "))
-
-//     let last_name = str.slice(str.lastIndexOf(" ") +1 , str.length)
-
-//     console.log(first_name)
-//     console.log(middle_name)
-//     console.log(last_name)
-//    }
-//    else{ console.log("Please pass a string first !")}
-   
-//   }
-
-//   name_divider(full_name)
-
- // Same Example using if/else  using some condition
-
- let full_name =prompt("Enter your full name !")
-
- let name_divider = (str) =>
- 
-  
-  {
-    if(str.indexOf("  ") == -1)
     {
-        console.log("Please Enter full name in the format of First name middle name and last name")
-    }
-    else
-    {
-        str=str.trim()
-
         let first_name = str.slice(0,str.indexOf("  "))
 
-        let middle_name =str.slice(str.indexOf("  ") +1 ,str.lastIndexOf("  "))
-    
-        let last_name = str.slice(str.lastIndexOf(" ") +1 , str.length)
-    
-        console.log(first_name)
-        console.log(middle_name)
-        console.log(last_name)
+    let middle_name =str.slice(str.indexOf("  ") +1 ,str.lastIndexOf("  "))
 
-    }
+    let last_name = str.slice(str.lastIndexOf(" ") +1 , str.length)
+
+    console.log(first_name)
+    console.log(middle_name)
+    console.log(last_name)
+   }
+   else{ console.log("Please pass a string first !")}
+   
   }
 
-name_divider(full_name)
+  name_divider(full_name)
+
+
+
+// Same Example using if/else  using some condition
+
+//  let full_name =prompt("Enter your full name !")
+
+//  let name_divider = (str) =>
+ 
+  
+//   {
+//     if(str.indexOf("  ") == -1)
+//     {
+//         console.log("Please Enter full name in the format of First name middle name and last name")
+//     }
+//     else
+//     {
+//         str=str.trim()
+
+//         let first_name = str.slice(0,str.indexOf("  "))
+
+//         let middle_name =str.slice(str.indexOf("  ") +1 ,str.lastIndexOf("  "))
+    
+//         let last_name = str.slice(str.lastIndexOf(" ") +1 , str.length)
+    
+//         console.log(first_name)
+//         console.log(middle_name)
+//         console.log(last_name)
+
+//     }
+//   }
+
+// name_divider(full_name)
+
+    
